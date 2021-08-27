@@ -1,0 +1,14 @@
+.title KiCad schematic
+R1 inn Net-_R1-Pad2_ 1k
+R2 out inn 100k
+XU1 inp inn out Vss 0 OPAMP
+V1 Vss 0 dc(5)
+R7 inp Net-_R3-Pad1_ 1k
+R8 inp Vss 10k
+R9 0 inp 10k
+R3 Net-_R3-Pad1_ Vss 990
+R5 Net-_R1-Pad2_ Vss 1100
+R4 0 Net-_R3-Pad1_ 1050
+R6 0 Net-_R1-Pad2_ 990
+.tran 1u 10m 
+.end
